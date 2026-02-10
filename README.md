@@ -1,24 +1,35 @@
-\# Kunstproject - Tools en Data
+# Kunstproject - Tools en Data
+
+## 📌 Over dit project
+Dit project werd gemaakt voor de moduleproef **Tools en Data**.
+
+Het project gebruikt de **Harvard Art Museums API** om informatie op te halen over:
+- een tekening (drawing)
+- de bijhorende kunstenaar (artist)
+
+De resultaten worden opgeslagen in JSON en deels omgezet naar YAML.
 
 
 
-\## Inhoud
+## 📂 Bestanden in dit project
 
-\- script1.py: haalt info op van een tekening via de Harvard Art Museums API
+- **script1.py**
+Laadt en toont de inhoud van `drawing.json`.
 
-\- script2.py: verwerkt JSON-data en gebruikt regex
+- **script2.py**
+Verwerkt `drawing.json` en gebruikt **regex** om afmetingen te zoeken.
 
-\- script3.py: haalt informatie op over de kunstenaar
+- **script3.py**
+Laadt en toont de inhoud van `artist.json`.
 
-\- drawing.json: JSON-resultaat van de tekening
+- **drawing.json**
+JSON-resultaat met informatie over de tekening.
 
-\- artist.json: JSON-resultaat van de kunstenaar
+- **artist.json**
+JSON-resultaat met informatie over de kunstenaar.
 
-\- yaml1.txt: conversie van JSON naar YAML
+- **yaml1.txt**
+YAML-versie met een selectie van gegevens uit `drawing.json` en `artist.json`.
 
-
-
-\## Auteur: Delepierre Jason
-
-
+---
 
